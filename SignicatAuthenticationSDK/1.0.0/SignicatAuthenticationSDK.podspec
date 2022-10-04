@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/bartoszswiety/testPod.git', :tag => 'v1.0.0' }
   spec.ios.vendored_frameworks = 'SignicatAuthenticationSDK.xcframework'
   spec.ios.deployment_target  = '14.0'
+  spec.ios.library = 'z'
 end
